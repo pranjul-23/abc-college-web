@@ -1,0 +1,27 @@
+.progress {
+    display: flex;
+    justify-content: space-between;
+    font-size: .85em;
+    color: #fff;
+}
+
+.progress-bar {
+	background-color: #d8d8d8;
+    height: 5px;
+    margin: .35em 0 1em;
+    background: #0f3d77;
+    border-radius: 10px;
+}
+
+.progress-status {
+	background: #45b0e6;
+	border-radius: 5px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0; 
+	transition: 1s ease 0.3s;
+}
